@@ -1,93 +1,223 @@
+body {
+    font-size: 13px;
+}
+
+a, a:hover, a:visited, a:active {
+    color: #619bcf;
+    text-decoration: underline;
+}
+
+.container.main-container {
+    width: 1230px;
+}
+
+.logo-wrap {
+    width: 280px;
+    padding: 20px 0 0;
+}
+
+.content-area {
+    width: calc(100% - 280px);
+}
+
+div.header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
 .float-left {
-  float: left;
+    float: left;
 }
 
 .float-right {
-  float: right;
+    float: right;
 }
 
 .text-blue {
-  color: #82b5e2;
+    color: #82b5e2;
+}
+
+.text-white {
+    color: white;
 }
 
 .blue {
-  background: #82b5e2;
+    background: #82b5e2;
+}
+
+.text-dark-blue {
+    color: #619bcf;
 }
 
 .dark-blue {
-  background: #619bcf;
+    background: #619bcf;
 }
 
 .green {
-  background: #76be0f;
+    background: #76be0f;
 }
 
 .black {
-  background: #343739;
+    background: #343739;
+}
+
+.text-grey {
+    color: #444444;
 }
 
 .main-logo {
-  width: 280px;
-  height: 193px;
+    width: 280px;
+    height: 193px;
 }
 
 .top-basket {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  font-family: Roboto;
-  font-size: 13pt;
-  width: 175px;
-  height: 40px;
-  color: white;
-  border-radius: 0 0 4px 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Roboto;
+    font-size: 13pt;
+    width: 175px;
+    height: 40px;
+    color: white;
+    border-radius: 0 0 4px 4px;
 }
 
 .top-basket span.top-basket_icon {
-  background: url("../img/icons.png");
-  width: 18px;
-  height: 17px;
+    background: url("../img/icons.png");
+    width: 18px;
+    height: 17px;
 }
 
 .top-basket span.top-basket_count {
-  width: 28px;
-  height: 28px;
-  line-height: 28px;
-  text-align: center;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .working-hours-wrap {
-  text-align: center;
-  width: calc(100% - 400px);
+    padding-left: 50px;
+    text-align: left;
+    width: calc(100% - 510px);
+}
+
+.search-wrap {
+    margin-top: 25px;
+    overflow: hidden;
+    display: block;
+    width: 330px;
+    position: relative;
+}
+
+.search-wrap input[type="text"] {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    line-height: 30px;
+    padding: 0 56px 0 20px;
+}
+
+.search-wrap input[type="text"]::-webkit-input-placeholder {
+    color: black;
+}
+
+.search-wrap input[type="text"]::-moz-placeholder {
+    color: black;
+}
+
+/* Firefox 19+ */
+.search-wrap input[type="text"]:-moz-placeholder {
+    color: black;
+}
+
+/* Firefox 18- */
+.search-wrap input[type="text"]:-ms-input-placeholder {
+    color: black;
+}
+
+.search-wrap button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    color: #b6b6b6;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: 16px;
 }
 
 .top-phones-wrap {
-  text-align: left;
-  width: calc(100% - 400px);
+    margin-top: 15px;
 }
 
 .working-hours {
-  line-height: 40px;
+    line-height: 40px;
 }
 
 .authorize {
-  line-height: 40px;
+    line-height: 40px;
+    text-align: right;
 }
 
 .authorize .divider {
-  width: 0;
-  height: auto;
-  border-left: 1px solid;
-  margin: 0 10px;
+    width: 0;
+    height: auto;
+    border-left: 1px solid black;
+    margin: 0 10px;
 }
 
-.top-phones-wrap {
-  font-size: 13pt;
-  font-weight: bold;
+.top-phones-wrap, .phones-wrap {
+    font-size: 13pt;
+    font-weight: bold;
 }
 
-.top-phones-wrap .phone-title {
-  font-weight: normal;
-  
+.top-phones-wrap .phone-title, .phones-wrap .phone-title {
+    font-weight: normal;
+
+}
+
+span.phone-title {
+    font-size: 13px;
+}
+
+.phones-wrap {
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-container {
+    width: 100%;
+    min-width: 1230px;
+    background-color: #343739;
+    height: 200px;
+}
+
+.footer-container .footer {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 50%;
+}
+
+.address-wrap {
+    margin-top: 25px;
+}
+
+.footer-copyright {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.copyright-text {
+    margin-top: 25px;
 }
