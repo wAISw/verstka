@@ -1,0 +1,93 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-blue {
+  color: #82b5e2;
+}
+
+.blue {
+  background: #82b5e2;
+}
+
+.dark-blue {
+  background: #619bcf;
+}
+
+.green {
+  background: #76be0f;
+}
+
+.black {
+  background: #343739;
+}
+
+.main-logo {
+  width: 280px;
+  height: 193px;
+}
+
+.top-basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Roboto;
+  font-size: 13pt;
+  width: 175px;
+  height: 40px;
+  color: white;
+  border-radius: 0 0 4px 4px;
+}
+
+.top-basket span.top-basket_icon {
+  background: url("../img/icons.png");
+  width: 18px;
+  height: 17px;
+}
+
+.top-basket span.top-basket_count {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.working-hours-wrap {
+  text-align: center;
+  width: calc(100% - 400px);
+}
+
+.top-phones-wrap {
+  text-align: left;
+  width: calc(100% - 400px);
+}
+
+.working-hours {
+  line-height: 40px;
+}
+
+.authorize {
+  line-height: 40px;
+}
+
+.authorize .divider {
+  width: 0;
+  height: auto;
+  border-left: 1px solid;
+  margin: 0 10px;
+}
+
+.top-phones-wrap {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.top-phones-wrap .phone-title {
+  font-weight: normal;
+  
+}
